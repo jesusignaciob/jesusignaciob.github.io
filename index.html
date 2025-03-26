@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jesús Ignacio Becerra - Desarrollador Full Stack</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@400;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <!-- Header -->
     <header id="header">
         <div class="container">
             <nav>
-                <div class="logo">JIB<span>()</span></div>
+                <div class="logo-container">
+                    <img src="img/me40px.png" alt="Jesús Ignacio Becerra" class="header-photo">
+                    <div class="logo">JIB<span>()</span></div>
+                </div>
                 <ul class="nav-links">
                     <li><a href="#home"><i class="fas fa-home"></i> inicio()</a></li>
                     <li><a href="#about"><i class="fas fa-user"></i> sobreMi()</a></li>
@@ -32,15 +39,18 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <img src="https://via.placeholder.com/150" alt="Jesús Ignacio Becerra" class="profile-img">
+                <img src="img/me200px.png" alt="Jesús Ignacio Becerra" class="profile-img">
                 <h1><span class="code-font">const</span> developer = <span class="code-font">{</span></h1>
                 <div class="typewriter">nombre: "Jesús Ignacio Becerra"</div>
                 <h1><span class="code-font">}</span>;</h1>
-                <p>Ingeniero de Sistemas, Desarrollador Full Stack con amplia experiencia en <span>React</span>, <span>.NET</span>, <span>Django</span> y despliegue de modelos de <span>Machine Learning</span>.</p>
+                <p>Ingeniero de Sistemas, Desarrollador Full Stack con amplia experiencia en <span>React</span>,
+                    <span>.NET</span>, <span>Django</span> y despliegue de modelos de <span>Machine Learning</span>.
+                </p>
                 <div class="social-links">
                     <a href="mailto:jesusignaciob@gmail.com"><i class="fas fa-envelope"></i></a>
                     <a href="tel:+584248899900"><i class="fas fa-phone"></i></a>
-                    <a href="www.linkedin.com/in/jesusignaciobecerra"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/jesusignaciobecerra" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
                     <a href="#"><i class="fab fa-github"></i></a>
                 </div>
                 <a href="#contact" class="btn">contactar()</a>
@@ -54,17 +64,19 @@
                     <div class="terminal-title">bash — 80×24</div>
                 </div>
                 <div class="terminal-body">
-                    <p><span class="terminal-prompt">$</span> <span class="terminal-command">npm init portfolio</span></p>
+                    <p><span class="terminal-prompt">$</span> <span class="terminal-command">npm init portfolio</span>
+                    </p>
                     <p><span class="terminal-comment">// Creando un portafolio profesional...</span></p>
                     <p><span class="terminal-prompt">$</span> <span class="terminal-command">git add .</span></p>
-                    <p><span class="terminal-prompt">$</span> <span class="terminal-command">git commit -m "Portafolio completo con experiencia en Full Stack"</span></p>
-                    <p><span class="terminal-prompt">$</span> <span class="terminal-command">git push origin master</span></p>
+                    <p><span class="terminal-prompt">$</span> <span class="terminal-command">git commit -m "Portafolio
+                            completo con experiencia en Full Stack"</span></p>
+                    <p><span class="terminal-prompt">$</span> <span class="terminal-command">git push origin
+                            master</span></p>
                     <p><span class="terminal-comment">// ¡Portafolio desplegado con éxito!</span></p>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- About Section -->
     <section id="about" class="section">
         <div class="container">
@@ -73,54 +85,136 @@
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <p><span>Profesional</span> con amplia experiencia en el desarrollo de <span>Aplicaciones Web</span> y de <span>Escritorio</span>, manejo de tecnologías de última generación (<span>React</span>, <span>MUI</span>, <span>.NET</span>, <span>Django</span>, <span>ML</span>), <span>Patrones de Diseño</span>, <span>Ingeniería de Software</span>, <span>Inteligencia de Negocios</span> y <span>Despliegue de Modelos ML</span>.</p>
-                    <p>He trabajado en diversos proyectos complejos implementando soluciones escalables y mantenibles, siempre enfocado en las mejores prácticas de desarrollo y calidad de código.</p>
-                    <p>Mi enfoque combina <span>creatividad</span> y <span>metodología</span> para entregar productos de software robustos y eficientes que satisfacen las necesidades del cliente.</p>
+                    <p><span>Profesional</span> con amplia experiencia en el desarrollo de <span>Aplicaciones Web</span>
+                        y de <span>Escritorio</span>, manejo de tecnologías de última generación (<span>React</span>,
+                        <span>MUI</span>, <span>.NET</span>, <span>Django</span>, <span>ML</span>), <span>Patrones de
+                            Diseño</span>, <span>Ingeniería de Software</span>, <span>Inteligencia de Negocios</span> y
+                        <span>Despliegue de Modelos ML</span>.
+                    </p>
+                    <p>He trabajado en diversos proyectos complejos implementando soluciones escalables y mantenibles,
+                        siempre enfocado en las mejores prácticas de desarrollo y calidad de código.</p>
+                    <p>Mi enfoque combina <span>creatividad</span> y <span>metodología</span> para entregar productos de
+                        software robustos y eficientes que satisfacen las necesidades del cliente.</p>
                 </div>
                 <div class="skills">
                     <div class="skill-item">
-                        <div class="skill-name">
-                            <span>Python/Django</span>
-                            <span>95%</span>
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                alt="Python">
                         </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 95%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-name">
-                            <span>React/TypeScript</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 90%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-name">
-                            <span>.NET/C#</span>
-                            <span>85%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 85%;"></div>
+                        <div class="skill-info">
+                            <div class="skill-name">
+                                <span>Python/Django</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%;"></div>
+                            </div>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Django REST</span>
+                                <span class="tech-tag">Flask</span>
+                                <span class="tech-tag">FastAPI</span>
+                            </div>
                         </div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-name">
-                            <span>Machine Learning</span>
-                            <span>80%</span>
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                                alt="TypeScript">
                         </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 80%;"></div>
+                        <div class="skill-info">
+                            <div class="skill-name">
+                                <span>TypeScript</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                            <div class="tech-tags">
+                                <span class="tech-tag">TypeScript</span>
+                            </div>
                         </div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-name">
-                            <span>PostgreSQL</span>
-                            <span>88%</span>
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                alt="React">
                         </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 88%;"></div>
+                        <div class="skill-info">
+                            <div class="skill-name">
+                                <span>React</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Redux</span>
+                                <span class="tech-tag">Material UI</span>
+                                <span class="tech-tag">Kendo React</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg"
+                                alt=".NET">
+                        </div>
+                        <div class="skill-info">
+                            <div class="skill-name">
+                                <span>.NET/C#</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                            <div class="tech-tags">
+                                <span class="tech-tag">ASP.NET MVC</span>
+                                <span class="tech-tag">ASP.NET Core</span>
+                                <span class="tech-tag">Entity Framework</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"
+                            title="Incluye experiencia con modelos Transformer y la librería Hugging Face">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+                                alt="Machine Learning">
+                        </div>
+                        <div class="skill-info">
+                            <div class="skill-name">
+                                <span>Machine Learning & NLP</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Transformers</span>
+                                <span class="tech-tag">Hugging Face</span>
+                                <span class="tech-tag">PyTorch</span>
+                                <span class="tech-tag">TorchServe</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                                alt="PostgreSQL">
+                        </div>
+                        <div class="skill-info">
+                            <div class="skill-name">
+                                <span>PostgreSQL</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%;"></div>
+                            </div>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Optimización</span>
+                                <span class="tech-tag">Procedimientos</span>
+                                <span class="tech-tag">NoSQL</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -142,7 +236,10 @@
                         </div>
                         <h3>Desarrollador Full Stack</h3>
                         <h4>TYM | Ene 2015 - Feb 2025</h4>
-                        <p><span>Backend:</span> ASP.NET, ASP.NET Core, Django, Amazon Lambda y EC2, PostgreSQL. <span>Frontend:</span> Responsive Design, ReactJS, TypeScript, MUI, Kendo UI. <span>ML:</span> Despliegue de Modelos NLP con TorchServe y FastAPI.</p>
+                        <p><span>Backend:</span> ASP.NET, ASP.NET Core, Django, Amazon Lambda y EC2, PostgreSQL.
+                            <span>Frontend:</span> Responsive Design, ReactJS, TypeScript, MUI, Kendo UI.
+                            <span>ML:</span> Despliegue de Modelos NLP con TorchServe y FastAPI.
+                        </p>
                     </div>
                 </div>
                 <div class="timeline-item right">
@@ -152,7 +249,9 @@
                         </div>
                         <h3>Ingeniero de Software</h3>
                         <h4>CENDITEL | Mar 2012 - Ene 2015</h4>
-                        <p><span>Backend:</span> Django, Symfony, PostgreSQL. <span>Frontend:</span> JQuery, PrototypeJS. <span>Escritorio:</span> pyGTK, PyGame. <span>BI:</span> Pentaho, MySQL, PostgreSQL.</p>
+                        <p><span>Backend:</span> Django, Symfony, PostgreSQL. <span>Frontend:</span> JQuery,
+                            PrototypeJS. <span>Escritorio:</span> pyGTK, PyGame. <span>BI:</span> Pentaho, MySQL,
+                            PostgreSQL.</p>
                     </div>
                 </div>
                 <div class="timeline-item left">
@@ -172,7 +271,8 @@
                         </div>
                         <h3>Líder de Desarrollo</h3>
                         <h4>DBAccess | Jun 2006 - Dic 2011</h4>
-                        <p><span>Tecnologías:</span> Javascript, ASP.NET, ASP.NET MVC, Spring MVC, Java, Oracle, Google GWT. <span>BI:</span> IBM DataStage, Oracle, MySQL.</p>
+                        <p><span>Tecnologías:</span> Javascript, ASP.NET, ASP.NET MVC, Spring MVC, Java, Oracle, Google
+                            GWT. <span>BI:</span> IBM DataStage, Oracle, MySQL.</p>
                     </div>
                 </div>
             </div>
@@ -190,7 +290,6 @@
                     <div class="education-icon">
                         <i class="fas fa-university"></i>
                     </div>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Universidad_de_los_Andes_%28Venezuela%29_-_Biblioteca.jpg/800px-Universidad_de_los_Andes_%28Venezuela%29_-_Biblioteca.jpg" alt="Universidad de los Andes" class="university-img">
                     <h3>Ingeniero de Sistemas</h3>
                     <h4>Universidad de los Andes (VE)</h4>
                     <p>Investigación de Operaciones</p>
@@ -202,8 +301,6 @@
                     <h3>Cursos Certificados</h3>
                     <h4>TestDome</h4>
                     <p>JavaScript, Django, HTML/CSS, React, C#</p>
-                    <h4 style="margin-top: 1rem; color: var(--yellow);">Otras Certificaciones</h4>
-                    <p>Machine Learning Fundamentals, Cloud Architecture</p>
                 </div>
             </div>
         </div>
@@ -216,19 +313,25 @@
                 <h2>contacto()</h2>
             </div>
             <div class="contact-form">
-                <form id="contactForm">
+                <form id="contactForm" action="https://formsubmit.co/jesusignaciob@gmail.com" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://jesusignaciob.github.io/thankyou.html">
+
                     <div class="form-group">
-                        <label for="name">nombre</label>
-                        <input type="text" id="name" required>
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required>
                     </div>
+
                     <div class="form-group">
-                        <label for="email">email</label>
-                        <input type="email" id="email" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
                     </div>
+
                     <div class="form-group">
-                        <label for="message">mensaje</label>
-                        <textarea id="message" required></textarea>
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" required></textarea>
                     </div>
+
                     <button type="submit" class="btn">enviarMensaje()</button>
                 </form>
             </div>
@@ -249,7 +352,8 @@
                 <div class="social-links-footer">
                     <a href="mailto:jesusignaciob@gmail.com"><i class="fas fa-envelope"></i></a>
                     <a href="tel:+584248899900"><i class="fas fa-phone"></i></a>
-                    <a href="www.linkedin.com/in/jesusignaciobecerra"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/jesusignaciobecerra" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
                     <a href="#"><i class="fab fa-github"></i></a>
                 </div>
                 <div class="copyright">
@@ -263,12 +367,12 @@
         // Mobile menu toggle
         const hamburger = document.querySelector('.hamburger');
         const navLinks = document.querySelector('.nav-links');
-        
+
         hamburger.addEventListener('click', () => {
             navLinks.classList.toggle('active');
             hamburger.classList.toggle('fa-times');
         });
-        
+
         // Close menu when clicking on a link
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
@@ -276,58 +380,36 @@
                 hamburger.classList.remove('fa-times');
             });
         });
-        
+
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+            anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                
+
                 const targetId = this.getAttribute('href');
                 const targetElement = document.querySelector(targetId);
-                
+
                 window.scrollTo({
                     top: targetElement.offsetTop - 80,
                     behavior: 'smooth'
                 });
             });
         });
-        
+
         // Animate skill bars when section is visible
         const skillsSection = document.querySelector('#about');
         const skillBars = document.querySelectorAll('.skill-progress');
-        
+
         function animateSkillBars() {
-        skillBars.forEach((bar) => {
-          const width = bar.style.width;
-          bar.style.width = "0";
-          setTimeout(() => {
-            bar.style.width = width;
-          }, 300);
-        });
-      }
-
-      // Contact form
-      const contactForm = document.getElementById("contactForm");
-
-      contactForm.addEventListener("submit", (e) => {
-        e.preventDefault();
-
-        // Get form values
-        const name = document.getElementById("name").value;
-        const email = document.getElementById("email").value;
-        const message = document.getElementById("message").value;
-
-        // Here you would typically send the form data to a server
-        console.log("Form submitted:", { name, email, message });
-
-        // Show success message
-        alert(
-          "¡Mensaje enviado con éxito! Me pondré en contacto contigo pronto."
-        );
-
-        // Reset form
-        contactForm.reset();
-      });
+            skillBars.forEach((bar) => {
+                const width = bar.style.width;
+                bar.style.width = "0";
+                setTimeout(() => {
+                    bar.style.width = width;
+                }, 300);
+            });
+        }
     </script>
-  </body>
+</body>
+
 </html>
