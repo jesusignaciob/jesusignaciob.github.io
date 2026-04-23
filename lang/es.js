@@ -12,7 +12,13 @@ window.I18N.es = {
     "contact": "contacto()"
   },
   "hero": {
-    "subtitle": "Ingeniero de Sistemas, Desarrollador Full Stack con amplia experiencia en <span>React</span>, <span>.NET</span>, <span>Django</span> y despliegue de modelos de <span>Machine Learning</span>.",
+    "roleLabel": "rol",
+    "role": "Desarrollador Full Stack",
+    "descLabel": "descripcion",
+    "subtitle": "Ingeniero de Sistemas, Desarrollador Full Stack con amplia experiencia en React, .NET, Django y despliegue de modelos de Machine Learning.",
+    "skillsLabel": "habilidades",
+    "linksLabel": "enlaces",
+    "contactLabel": "contacto",
     "contactBtn": "contactar()",
     "terminalComment1": "// Creando un portafolio profesional...",
     "terminalComment2": "// ¡Portafolio desplegado con éxito!"

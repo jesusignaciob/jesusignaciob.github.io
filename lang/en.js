@@ -12,7 +12,13 @@ window.I18N.en = {
     "contact": "contact()"
   },
   "hero": {
-    "subtitle": "Systems Engineer, Full Stack Developer with extensive experience in <span>React</span>, <span>.NET</span>, <span>Django</span> and deployment of <span>Machine Learning</span> models.",
+    "roleLabel": "role",
+    "role": "Full Stack Developer",
+    "descLabel": "description",
+    "subtitle": "Systems Engineer, Full Stack Developer with extensive experience in React, .NET, Django and deployment of Machine Learning models.",
+    "skillsLabel": "skills",
+    "linksLabel": "links",
+    "contactLabel": "contact",
     "contactBtn": "contact()",
     "terminalComment1": "// Creating a professional portfolio...",
     "terminalComment2": "// Portfolio deployed successfully!"

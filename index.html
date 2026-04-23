@@ -61,24 +61,60 @@
         <div class="container">
             <div class="hero-content">
                 <img src="img/me200px.png" alt="Jesús Ignacio Becerra" class="profile-img">
-                <h1><span class="code-font">const</span> developer = <span class="code-font">{</span></h1>
-                <div class="typewriter">nombre: "Jesús Ignacio Becerra"</div>
-                <h1><span class="code-font">}</span>;</h1>
-                <p data-i18n-html="hero.subtitle">Ingeniero de Sistemas, Desarrollador Full Stack con amplia experiencia en <span>React</span>,
-                    <span>.NET</span>, <span>Django</span> y despliegue de modelos de <span>Machine Learning</span>.
-                </p>
-                <div class="social-links">
-                    <a href="mailto:jesusignaciob@gmail.com" aria-label="Correo Electrónico"><i
-                            class="fas fa-envelope"></i></a>
-                    <a href="tel:+584248899900" aria-label="Teléfono"><i class="fas fa-phone"></i></a>
-                    <a href="https://www.linkedin.com/in/jesusignaciobecerra" target="_blank" rel="noopener noreferrer"
-                        aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/jesusignaciob" target="_blank" rel="noopener noreferrer"
-                        aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="https://www.coursera.org/learner/jesus-becerra" target="_blank" rel="noopener noreferrer"
-                        aria-label="Coursera"><i class="fas fa-certificate"></i></a>
+                <div class="ide-editor">
+                    <div class="ide-header">
+                        <div class="ide-tabs">
+                            <div class="ide-tab active">
+                                <i class="fab fa-js" style="color: #f7df1e;"></i> developer.js
+                            </div>
+                            <div class="ide-tab hidden-mobile">
+                                <i class="fab fa-css3-alt" style="color: #264de4;"></i> styles.css
+                            </div>
+                            <div class="ide-tab hidden-mobile">
+                                <i class="fab fa-html5" style="color: #e34c26;"></i> index.html
+                            </div>
+                        </div>
+                        <div class="ide-actions">
+                            <i class="fas fa-play"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="ide-body code-font">
+                        <div class="line-numbers">
+                            <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span>
+                        </div>
+                        <div class="code-content">
+                            <div class="json-line"><span class="keyword">const</span> <span class="variable">developer</span> <span class="operator">=</span> <span class="punctuation">{</span></div>
+                            <div class="json-line indent-1"><span class="property">"nombre"</span><span class="colon">:</span> <span class="string">"Jesús Ignacio Becerra"</span><span class="comma">,</span></div>
+                            <div class="json-line indent-1"><span class="property">"<span data-i18n="hero.roleLabel">rol</span>"</span><span class="colon">:</span> <span class="string">"<span data-i18n="hero.role">Desarrollador Full Stack</span>"</span><span class="comma">,</span></div>
+                            <div class="json-line indent-1">
+                                <span class="property">"<span data-i18n="hero.descLabel">descripcion</span>"</span><span class="colon">:</span> 
+                                <span class="string">"<span data-i18n="hero.subtitle">Ingeniero de Sistemas, Desarrollador Full Stack con amplia experiencia en React, .NET, Django y despliegue de modelos de Machine Learning.</span>"</span><span class="comma">,</span>
+                            </div>
+                            <div class="json-line indent-1"><span class="property">"<span data-i18n="hero.skillsLabel">habilidades</span>"</span><span class="colon">:</span> <span class="punctuation">[</span></div>
+                            <div class="json-line indent-2">
+                                <span class="string">"React"</span><span class="comma">,</span> 
+                                <span class="string">".NET"</span><span class="comma">,</span> 
+                                <span class="string">"Django"</span><span class="comma">,</span> 
+                                <span class="string">"Machine Learning"</span>
+                            </div>
+                            <div class="json-line indent-1"><span class="punctuation">]</span><span class="comma">,</span></div>
+                            <div class="json-line indent-1"><span class="property">"<span data-i18n="hero.linksLabel">enlaces</span>"</span><span class="colon">:</span> <span class="punctuation">{</span></div>
+                            <div class="json-line indent-2 json-socials">
+                                <a href="mailto:jesusignaciob@gmail.com" aria-label="Correo Electrónico"><i class="fas fa-envelope"></i></a>
+                                <a href="tel:+584248899900" aria-label="Teléfono"><i class="fas fa-phone"></i></a>
+                                <a href="https://www.linkedin.com/in/jesusignaciobecerra" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/jesusignaciob" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                                <a href="https://www.coursera.org/learner/jesus-becerra" target="_blank" rel="noopener noreferrer" aria-label="Coursera"><i class="fas fa-certificate"></i></a>
+                            </div>
+                            <div class="json-line indent-1"><span class="punctuation">}</span><span class="comma">,</span></div>
+                            <div class="json-line indent-1"><span class="property">"<span data-i18n="hero.contactLabel">contacto</span>"</span><span class="colon">:</span> <span class="keyword">function</span><span class="punctuation">()</span> <span class="punctuation">{</span></div>
+                            <div class="json-line indent-2"><span class="keyword">return</span> <a href="#contact" class="string link">"<span data-i18n="hero.contactBtn">contactar()</span>"</a><span class="punctuation">;</span></div>
+                            <div class="json-line indent-1"><span class="punctuation">}</span></div>
+                            <div class="json-line"><span class="punctuation">};</span></div>
+                        </div>
+                    </div>
                 </div>
-                <a href="#contact" class="btn" data-i18n="hero.contactBtn">contactar()</a>
             </div>
 
             <div class="terminal">
