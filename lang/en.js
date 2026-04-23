@@ -12,6 +12,7 @@ window.I18N.en = {
     "contact": "contact()"
   },
   "hero": {
+    "nameLabel": "name",
     "roleLabel": "role",
     "role": "Full Stack Developer",
     "descLabel": "description",
