@@ -147,6 +147,34 @@ nav {
     color: var(--secondary);
 }
 
+/* Language Switcher */
+.lang-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    padding: 5px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.lang-btn i {
+    font-size: 0.9rem;
+}
+
+.lang-btn:hover {
+    background-color: var(--primary);
+    color: var(--bg-dark);
+    box-shadow: 0 0 12px rgba(86, 156, 214, 0.4);
+    transform: translateY(-2px);
+}
 .hamburger {
     display: none;
     cursor: pointer;

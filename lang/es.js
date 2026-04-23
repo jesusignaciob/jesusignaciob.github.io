@@ -1,0 +1,99 @@
+window.I18N = window.I18N || {};
+window.I18N.es = {
+  "meta": {
+    "title": "Jesús Ignacio Becerra - Desarrollador Full Stack",
+    "description": "Portafolio de Jesús Ignacio Becerra, Desarrollador Full Stack e Ingeniero de Sistemas con experiencia en React, .NET, Django y Machine Learning."
+  },
+  "nav": {
+    "home": "inicio()",
+    "about": "sobreMi()",
+    "experience": "experiencia()",
+    "education": "educacion()",
+    "contact": "contacto()"
+  },
+  "hero": {
+    "subtitle": "Ingeniero de Sistemas, Desarrollador Full Stack con amplia experiencia en <span>React</span>, <span>.NET</span>, <span>Django</span> y despliegue de modelos de <span>Machine Learning</span>.",
+    "contactBtn": "contactar()",
+    "terminalComment1": "// Creando un portafolio profesional...",
+    "terminalComment2": "// ¡Portafolio desplegado con éxito!"
+  },
+  "about": {
+    "title": "sobreMi()",
+    "p1": "<span>Profesional</span> con amplia experiencia en el desarrollo de <span>Aplicaciones Web</span> y de <span>Escritorio</span>, manejo de tecnologías de última generación (<span>React</span>, <span>MUI</span>, <span>.NET</span>, <span>Django</span>, <span>ML</span>), <span>Patrones de Diseño</span>, <span>Ingeniería de Software</span>, <span>Inteligencia de Negocios</span> y <span>Despliegue de Modelos ML</span>.",
+    "p2": "He trabajado en diversos proyectos complejos implementando soluciones escalables y mantenibles, siempre enfocado en las mejores prácticas de desarrollo y calidad de código.",
+    "p3": "Mi enfoque combina <span>creatividad</span> y <span>metodología</span> para entregar productos de software robustos y eficientes que satisfacen las necesidades del cliente.",
+    "downloadCv": "descargar_cv()",
+    "skillTags": {
+      "optimization": "Optimización",
+      "procedures": "Procedimientos"
+    }
+  },
+  "experience": {
+    "title": "experiencia()",
+    "jobs": [
+      {
+        "role": "Desarrollador Full Stack",
+        "details": "Epidata | Jun 2025 - Actualidad",
+        "desc": "<span>Backend:</span> Django, Django REST Framework, Oracle Database, MongoDB. <span>Frontend:</span> Vue.js. <span>DevOps:</span> Docker. <span>Modalidad:</span> Remoto · Jornada completa."
+      },
+      {
+        "role": "Ingeniero de Software",
+        "details": "TYM | Ene 2015 - Feb 2025",
+        "desc": "<span>Backend:</span> ASP.NET, ASP.NET Core, Django, Amazon Lambda y EC2, PostgreSQL. <span>Frontend:</span> Responsive Design, ReactJS, TypeScript, MUI, Kendo UI. <span>ML:</span> Despliegue de Modelos NLP con TorchServe y FastAPI."
+      },
+      {
+        "role": "Ingeniero de Software",
+        "details": "CENDITEL | Mar 2012 - Ene 2015",
+        "desc": "<span>Backend:</span> Django, Symfony, PostgreSQL. <span>Frontend:</span> JQuery, PrototypeJS. <span>Escritorio:</span> pyGTK, PyGame. <span>BI:</span> Pentaho, MySQL, PostgreSQL."
+      },
+      {
+        "role": "Desarrollador",
+        "details": "SITVEN, C.A. | Ene 2012 - Mar 2012",
+        "desc": "Spring MVC, PostgreSQL."
+      },
+      {
+        "role": "Líder de Desarrollo",
+        "details": "DBAccess | Jun 2006 - Dic 2011",
+        "desc": "<span>Tecnologías:</span> Javascript, ASP.NET, ASP.NET MVC, Spring MVC, Java, Oracle, Google GWT. <span>BI:</span> IBM DataStage, Oracle, MySQL."
+      }
+    ]
+  },
+  "education": {
+    "title": "educacion()",
+    "degree": "Ingeniero de Sistemas",
+    "university": "Universidad de los Andes (VE)",
+    "degreeSpecialty": "Investigación de Operaciones",
+    "certTitle": "Cursos Certificados",
+    "certProvider": "TestDome",
+    "certDesc": "JavaScript, Django, HTML/CSS, React, C#",
+    "courseraTitle": "Cursos y Especializaciones",
+    "courseraLink": "Ver perfil en Coursera",
+    "groupLabels": {
+      "specialization": "Especialización",
+      "ai": "Inteligencia Artificial y GenAI",
+      "devops": "DevOps y Cloud"
+    },
+    "courseDates": {
+      "mar2026": "Mar 2026",
+      "ene2026": "Ene 2026",
+      "jun2025": "Jun 2025",
+      "may2025": "May 2025",
+      "abr2025": "Abr 2025"
+    }
+  },
+  "contact": {
+    "title": "contacto()",
+    "nameLabel": "Nombre",
+    "emailLabel": "Email",
+    "messageLabel": "Mensaje",
+    "submitBtn": "enviarMensaje()"
+  },
+  "footer": {
+    "copyright": "console.log(\"© 2025 Jesús Ignacio Becerra. Todos los derechos reservados.\");"
+  },
+  "thankyou": {
+    "title": "¡Gracias por tu mensaje!",
+    "message": "Me pondré en contacto contigo pronto.",
+    "back": "Volver al portafolio"
+  }
+};
