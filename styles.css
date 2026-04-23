@@ -664,6 +664,167 @@ nav {
     z-index: 1;
     color: var(--text-light);
   }
+
+  /* Coursera Block */
+  .coursera-block {
+    margin-top: 3rem;
+    background-color: var(--bg-lighter);
+    border-radius: 12px;
+    border: 1px solid var(--bg-dark);
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .coursera-block::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary), var(--purple), var(--secondary));
+  }
+
+  .coursera-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(86, 156, 214, 0.15);
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .coursera-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .coursera-title i {
+    font-size: 1.5rem;
+    color: var(--primary);
+  }
+
+  .coursera-title h3 {
+    color: var(--primary);
+    font-size: 1.4rem;
+    font-family: 'Fira Code', monospace;
+    margin: 0;
+  }
+
+  .coursera-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--secondary);
+    text-decoration: none;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.85rem;
+    padding: 6px 14px;
+    border: 1px solid rgba(156, 220, 254, 0.3);
+    border-radius: 6px;
+    transition: all 0.3s;
+  }
+
+  .coursera-link:hover {
+    background-color: rgba(86, 156, 214, 0.15);
+    border-color: var(--primary);
+    color: var(--primary);
+    transform: translateY(-2px);
+  }
+
+  .coursera-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .course-group {
+    background-color: var(--bg-dark);
+    border-radius: 8px;
+    padding: 1.5rem;
+    border: 1px solid rgba(86, 156, 214, 0.08);
+  }
+
+  .course-group-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--yellow);
+    font-family: 'Fira Code', monospace;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid rgba(220, 220, 170, 0.1);
+  }
+
+  .course-group-label i {
+    font-size: 1rem;
+    opacity: 0.8;
+  }
+
+  .course-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .course-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+    border-radius: 6px;
+    transition: all 0.25s;
+    border-left: 3px solid transparent;
+  }
+
+  .course-item:hover {
+    background-color: rgba(86, 156, 214, 0.08);
+    border-left-color: var(--primary);
+  }
+
+  .course-item.specialization {
+    border-left-color: var(--purple);
+    background-color: rgba(197, 134, 192, 0.06);
+  }
+
+  .course-item.specialization:hover {
+    background-color: rgba(197, 134, 192, 0.12);
+  }
+
+  .course-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 0;
+    flex: 1;
+  }
+
+  .course-name {
+    color: var(--text);
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+
+  .course-provider {
+    color: var(--text-light);
+    font-size: 0.8rem;
+    font-family: 'Fira Code', monospace;
+  }
+
+  .course-date {
+    color: var(--green);
+    font-size: 0.8rem;
+    font-family: 'Fira Code', monospace;
+    white-space: nowrap;
+    margin-left: 1rem;
+    flex-shrink: 0;
+  }
   
   /* Contact Section */
   .contact-form {
